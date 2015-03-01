@@ -1,0 +1,21 @@
+{
+  "name": "http-and-websocket",
+  "version": "0.0.1",
+  "description": "minimal http and websocket servers",
+  "main": "server1.js",
+  "scripts": {
+    "prestart": "npm install -d",
+    "start": "nohup node server1.js &",
+    "poststart": "nohup node server2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/erhangundogan/http-and-websocket"
+  },
+  "author": "Erhan Gundogan",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.53.0",
+    "socket.io": "^1.3.4"
+  }
+}
