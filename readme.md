@@ -1,7 +1,7 @@
 http-and-websocket
 ==================
 
-Death simple and minimal standalone nodejs servers working together using http/websocket.
+Dead simple and minimal standalone nodejs servers working together using http/websocket.
 
 * First server (http://localhost:8000)
   * Generates random string and a number every 5 seconds.
